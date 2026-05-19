@@ -1,1 +1,1 @@
-# ShopHub
+# ShopHub - React|Tailwind Project
