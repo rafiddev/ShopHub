@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.container {
+  @apply max-w-302 bg-[#fffff] mx-auto;
+}
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+.list-item {
+  @apply font-inter text-[16px] font-normal text-[#374151] leading-6;
+}
+
+.search-input{
+  @apply w-lg h-10.25 border border-[#D1D5DB] rounded-lg ml-[81.02px] pl-10 pr-10 placeholder:font-inter leading-6 font-normal text-[#ADAEBC] mt-2.75 mb-2.75 ;
+}
